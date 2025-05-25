@@ -1,4 +1,4 @@
-Zeus Comp
+
 Zeus Comp é um sistema backend desenvolvido para a trilha de backend da CompJúnior, com foco na gestão de membros e orçamentos da empresa. O sistema implementa autenticação de usuários, controle de permissões, recuperação de senha e operações CRUD completas para membros e orçamentos.
 
 🚀 Tecnologias Utilizadas
