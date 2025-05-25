@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft/2020-12/schema",
+    "title": "CreateMemberSchema",
+    "type": "object",
+    "properties": {
+        "full_name": {
+            "type": "string"
+        },
+        "birth_date": {
+            "type": "string",
+            "format": "date"
+        },
+        "email": {
+            "type": "string",
+            "format": "email"
+        },
+        "role": {
+            "type": "string"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "gender": {
+            "type": "string"
+        },
+        "egress": {
+            "type": "string",
+            "format": "date"
+        },
+        "skills": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "full_name",
+        "birth_date",
+        "email",
+        "role",
+        "phone",
+        "gender",
+        "egress"
+    ]
+}
